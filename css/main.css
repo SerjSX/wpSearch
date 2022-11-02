@@ -90,8 +90,11 @@ p.middle-buttons-text {
 
 div.softinfo {
     position: absolute;
-    margin-top: 10px;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #b8b6b6;
 }
 
 a.download-button-clr {
