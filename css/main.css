@@ -161,7 +161,7 @@ a.download-button-clr:hover {
     }
 
     img.preview-img {
-        max-width: initial;
+        max-width: 600px;
     }
 
     img.top-buttons {
@@ -177,11 +177,24 @@ a.download-button-clr:hover {
 @media only screen and (min-width: 768px) {
 
     a.middle-buttons {
-        margin-left: 20px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-bottom: 20px;
     }
 
-    div.buttonsprev {
+    img.preview-img {
+        max-width: 700px;
+    }
+
+    div.middle-buttons-download-wrap {
         display: flex;
     }
 
+}
+
+@media only screen and (min-width: 1080px) {
+
+    img.preview-img {
+        max-width: initial;
+    }
 }
